@@ -2,8 +2,6 @@ import React from 'react'
 import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
 import RowRadioButtonsGroup from '../components/RowRadioButtonsGroup';
-import ResponsiveAppBar from '../components/ResponsiveAppBar';
-
 
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
@@ -37,7 +35,7 @@ function Form() {
 
             <br />
             <hr />
-            <ResponsiveAppBar/>
+            
         </div>
 
     )
