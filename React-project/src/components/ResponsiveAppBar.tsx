@@ -36,6 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
+    // แก้ไข postion AppBar เป็น fixed เพื่อให้เต็มความกว้างของจอ
     <AppBar position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
