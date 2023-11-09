@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 import App from '../App'
 
 
@@ -8,6 +8,9 @@ function WrappedApp() {
    <HashRouter>
     <App/>
    </HashRouter>
+  // <BrowserRouter>
+  // <App/>
+  // </BrowserRouter>
   )
 }
 
