@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, HashRouter,Route,Routes } from 'react-router-dom'
-import Home from './pages/home'
+import Home from './pages/Home'
 import MUITest from './pages/MUITest'
 import Form from './pages/Form'
 
