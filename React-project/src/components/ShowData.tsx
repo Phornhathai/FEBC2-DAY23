@@ -2,6 +2,8 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import axios from 'axios';
 
+import "./showdata.scss"
+
 
 type Product = {
     id: number;
@@ -31,7 +33,7 @@ useEffect(() => {
 return (
   <div className="App">
     {products.map((product: Product) => (
-      <div key={product.id}>
+      <div className='ListItem' key={product.id}>
         <h2>{product.title}</h2>
         <p>{product.date}</p>
         <img src={product.image} alt={product.title} />
