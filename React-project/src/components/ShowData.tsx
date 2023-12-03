@@ -23,6 +23,7 @@ useEffect(() => {
   axios.get('https://deafeningidealisticiteration.borntodev.repl.co/products')
     .then(response => {
       setProducts(response.data);
+      console.log(response.data);
     })
     .catch(error => {
       console.error('There was an error!', error);
